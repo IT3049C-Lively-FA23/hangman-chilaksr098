@@ -3,7 +3,7 @@ class Hangman {
 
   constructor(_canvas) {
     if (!_canvas) {
-      throw new Error(`inva lid canvas provided`);
+      throw new Error(`invalid canvas provided`);
     }
     this.canvas = _canvas;
     this.ctx = this.canvas.getContext(`2d`);
